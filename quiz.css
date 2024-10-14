@@ -1,0 +1,116 @@
+#title-stripe {
+    background-color: #e4e9f8; 
+    border: 3px solid #4a5060; 
+    padding: 15px 0;
+    width: 35%; 
+    border-radius: 2px;
+    text-align: center; 
+    position: relative; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin:30px auto;
+}
+
+#title-stripe:hover {
+    transform: scale(1.02); 
+}
+
+#quiz-title {
+    color: #49484b;
+    font-size: 1.7em; 
+    font-family: 'Lobster', cursive;
+    font-weight: 600;
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #cdd6ea;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#quiz {
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    width: 900px; 
+    height:auto;
+    text-align: center;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+#quiz:hover {
+    transform: scale(1.02); 
+}
+
+#question {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#next-button {
+    display:block;
+    background-color: #e4e9f8; 
+    width: 100px;
+    margin: 10px; 
+    padding: 12px 18px;
+    border: 2px solid #4a5060; 
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s; 
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: calc(15%);
+}
+
+#next-button:hover {
+    background-color: #bbdefb;
+    transform: scale(1.02); 
+}
+
+.option {
+    display: block;
+    font-family: 'Quicksand', cursive;
+    background: #e4e9f8;
+    margin: 10px auto; 
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    width: calc(100% - 500px); 
+    padding: 12px;
+}
+
+.option:hover {
+    background: #bbdefb;
+    transform: scale(1.02); 
+}
+
+.correct {
+    background: #a9e5ab; 
+}
+
+.incorrect {
+    background: #f4a4a4; 
+}
+
+#score {
+    font-size: 1.5em; 
+    font-family: 'Lobster', cursive;
+    color: #051277;
+    background-color: #f0f8ff;
+    padding: 15px;
+    border: 2px solid #051277;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    display: none;
+}
