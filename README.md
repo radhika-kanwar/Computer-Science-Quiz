@@ -1,2 +1,2 @@
 # Computer-Science-Quiz
-A quiz appliation created using HTML, CSS and JavaScript.
+A quiz application created using HTML, CSS and JavaScript.
